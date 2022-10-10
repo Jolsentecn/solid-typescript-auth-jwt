@@ -89,8 +89,11 @@ export const AppDataSource = new DataSource({
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=postgres
-DB_PASS=postgres
+DB_PASS=root
 DB_NAME=api_rest_typescript
+
+JWT_PASS=ea1ff93e653e24e04063b527537c373f
+JWT_TTL=8h
 
 PORT=3000
 
